@@ -1,0 +1,8 @@
+.header-bg {
+    height: 65vh;
+    background: -webkit-linear-gradient(135deg, #4d5646cb 0%, #c3fcc9ce 100%), url("../img/header-img.jpg");
+    background: linear-gradient(135deg, #4d5646cb 40%, #c3fcc9ce 100%), url("../img/header-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}

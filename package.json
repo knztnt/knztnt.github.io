@@ -1,0 +1,31 @@
+{
+  "name": "knztnt",
+  "version": "1.0.0",
+  "description": "knztnt Solutions Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knztnt/knztnt.github.io.git"
+  },
+  "keywords": [
+    "knztnt",
+    "Solutions",
+    "knztnt",
+    "web",
+    "development",
+    "mobile",
+    "apps"
+  ],
+  "author": "Chamin Jayasooriya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knztnt/knztnt.github.io/issues"
+  },
+  "homepage": "https://github.com/knztnt/knztnt.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  }
+}

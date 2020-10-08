@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -128,8 +128,8 @@
                   <img
                     src="assets/img/logo.png"
                     class="rotate-vert-center"
-                    width="60px"
-                    height="135px"
+                    width="60"
+                    height="135"
                     loading="lazy"
                     alt="knztnt Solutions logo"
                   />
@@ -274,6 +274,7 @@
         </div>
       </section>
       <section class="relative py-10">
+        <h5 class="invisible">Our Services</h5>
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
           style="transform: translateZ(0px)"
@@ -555,6 +556,7 @@
                       for="full-name"
                       >Name</label
                     ><input
+                      id="full-name"
                       type="text"
                       class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                       placeholder="Full Name"
@@ -566,6 +568,7 @@
                       for="email"
                       >Email</label
                     ><input
+                      id="email"
                       type="email"
                       class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full ease-linear transition-all duration-150"
                       placeholder="Email"
@@ -577,6 +580,7 @@
                       for="message"
                       >Message</label
                     ><textarea
+                      id="message"
                       rows="4"
                       cols="80"
                       class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
@@ -690,7 +694,7 @@
         </div>
       </div>
     </footer>
-  </body>
+  
   <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
   <script>
     /* Make dynamic date appear */
@@ -719,4 +723,5 @@
       document.getElementById(dropdownID).classList.toggle("block");
     }
   </script>
+  </body>
 </html>
